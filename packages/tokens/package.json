@@ -1,0 +1,19 @@
+{
+  "name": "@arenapro/tokens",
+  "version": "11.0.0",
+  "description": "",
+  "main": "./src",
+  "module": "./src/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "Fábio Nascimento",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  }
+}

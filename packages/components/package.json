@@ -1,0 +1,22 @@
+{
+  "name": "@arenapro/components",
+  "version": "11.0.0",
+  "description": "",
+  "main": "./src",
+  "module": "./src/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "Fábio Nascimento",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.2.2"
+  }
+}
